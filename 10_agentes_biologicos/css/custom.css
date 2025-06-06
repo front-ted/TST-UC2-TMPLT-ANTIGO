@@ -1,0 +1,106 @@
+body {
+  background: url(../objetos/img_bg.png) top left / cover no-repeat fixed;
+}
+
+.pagination>li>a, .pagination>li>span{
+    border:none;
+    padding: 6px 2px;
+}
+
+.icone-resumindo{
+	padding-left: 100px;
+    background-position: 10px center;
+    background-size: 80px 80px;
+    background-image: url(../objetos/ico-resumo.png);
+    background-repeat: no-repeat;
+}
+
+.infografico900 {
+  display: block;
+}
+.infografico480 {
+  display: none;
+}
+.infografico300 {
+  display: none;
+}
+.row.germes {
+  max-width: 508px;
+  margin-left: auto; margin-right: auto;
+}
+.bto-germes {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    margin-bottom: 20px;
+    border: 0px none;
+    transition: 0.25s
+  }
+.bto-germes:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.bto-germes.bto-germes1 {
+    background: url(../objetos/icones_painelclicavel1.png) top left / cover no-repeat;
+}
+.bto-germes.bto-germes2 {
+    background: url(../objetos/icones_painelclicavel2.png) top left / cover no-repeat;
+}
+.bto-germes.bto-germes3 {
+    background: url(../objetos/icones_painelclicavel3.png) top left / cover no-repeat;
+}
+.bto-germes.bto-germes4 {
+    background: url(../objetos/icones_painelclicavel4.png) top left / cover no-repeat;
+}
+.pagination>li>a:hover{background-color: #fff;}
+.pagination{margin-left: 24%;}
+/* ul.ulcircle{list-style-type: circle;list-style-image:none !important;}  */
+ul.ulcircle li{list-style-type: circle;list-style-image:none !important;} 
+@media screen and (max-width:550px){
+    h2{margin-top: 80px;}
+    .icone-resumo{
+      background-position: center 0px;
+    }
+}
+.infografico {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin-left: auto; margin-right: auto;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+  .infografico900 {
+    display: block;
+  }
+  .infografico480 {
+    display: none;
+  }
+  .infografico300 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 899px) {
+  .infografico900 {
+    display: none;
+  }
+  .infografico480 {
+    display: block;
+  }
+  .infografico300 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .infografico900 {
+    display: none;
+  }
+  .infografico480 {
+    display: none;
+  }
+  .infografico300 {
+    display: block;
+  }
+}

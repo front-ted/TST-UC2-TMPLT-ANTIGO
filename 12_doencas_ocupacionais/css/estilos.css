@@ -1,0 +1,636 @@
+html, body {
+  height: 100%;
+}
+.bto-imprimir-img {
+    text-align: right;
+}
+.bto-imprimir-img button:hover {
+  background: url(../objetos/botoes-11.png) top left / 100% auto no-repeat;
+}
+.bto-imprimir-img button {
+    background: url(../objetos/botoes-12.png) top left / 100% auto no-repeat;
+    cursor: pointer;
+    width: 180px;
+    height: 60px;
+    border: 0px none;
+    color: rgba(0,0,0,0);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+  background: url(../images/img-noise-361x370.png) top left repeat;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 700;
+}
+h1 {
+  font-size: 2.85em;
+}
+.riscos {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.riscos li::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.riscos li:nth-child(1)::before {
+  background-color: red;
+}
+.riscos li:nth-child(2)::before {
+  background-color: green;
+}
+.riscos li:nth-child(3)::before {
+  background-color: brown;
+}
+.riscos li:nth-child(4)::before {
+  background-color: #ffd800;
+
+}
+.riscos li:nth-child(5)::before {
+  background-color: blue;
+}
+p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+strong {
+  font-weight: 700;
+}
+.grifado {
+    background: url(../objetos/grifado.png) 0px 13px repeat-x;
+}
+ul.marcadores {
+  margin: 0px; padding: 0px;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: unset;
+
+}
+.navbar-default .navbar-nav .active, .navbar-default .navbar-nav .active:hover, .navbar-default .navbar-nav .active:focus {
+    border-bottom: 4px solid #f7b53a;
+}
+
+ul.marcadores li {
+  list-style: none;
+  margin: 0px; padding: 0px;
+  background: url(../images/check.png) top left no-repeat;
+  padding-left: 65px;
+  background-size: 57px auto;
+  min-height: 65px;
+  padding-top: 10px;
+}
+.background-transparent {
+  background-color: rgba(255,255,255,0.7) !important;
+}
+.telas {
+  padding-top: 102px;
+}
+.logo {
+  margin-top: 12px;
+}
+.telas h1 {
+  max-width: 794px;
+  margin-left: auto; margin-right: auto;
+}
+.modal .modal-body {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#tela1 {
+  background-color: #fbb43e;
+  max-height: 1000px;
+}
+#tela1 h1::before {
+    content: "";
+    background-image: url(../images/1.png);
+    background-position: 0px -21px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 137px;
+    height: 132px;
+    float: left;
+    margin-right: 20px;
+}
+#tela2 {
+  background-color: #fbb43e;
+  max-height: 700px;
+}
+#tela2 h1::before {
+  content: "";
+  background-image: url(../images/2.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 137px;
+  height: 113px;
+  float: left;
+  margin-right: 20px;
+}
+#tela3 {
+  background-color: #fbb43e;
+  max-height: 1200px;
+}
+#tela3 h1::before {
+  content: "";
+  background-image: url(../images/3.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 137px;
+  height: 132px;
+  float: left;
+  margin-right: 20px;
+  margin-top: -16px;
+}
+#tela4 {
+  background-color: #fbb43e;
+  max-height: 1000px;
+}
+#tela4 h1::before {
+  content: "";
+  background-image: url(../images/4.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 137px;
+  height: 132px;
+  float: left;
+  margin-right: 20px;
+  margin-top: -16px;
+}
+#tela5 {
+  background-color: #fbb43e;
+  max-height: 1000px;
+}
+#tela5 h1::before {
+  content: "";
+  background-image: url(../images/5.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 137px;
+  height: 132px;
+  float: left;
+  margin-right: 20px;
+  margin-top: -16px;
+}
+#tela6 {
+  background-color: #fbb43e;
+  max-height: 1000px;
+}
+hr.separador-titulo {
+  border: 0px;
+  border-bottom: 4px solid #333;
+  float: left;
+  width: 100%;
+  max-width: 160px;
+  margin-top: 0px;
+}
+.navbar {
+  width: 100%;
+  min-height: 52px;
+  background-color: #000;
+  background: url(../images/img-noise-361x370.png) top left repeat;
+}
+.menu {
+  float: left;
+}
+.maxPend {
+  max-width: 595px;
+  width: 100%;
+}
+#lista-doencas {
+    margin-top: 40px;
+}
+#lista-doencas .panel-default > .panel-heading {
+    color: #333333;
+    background-color: #f7b53a;
+    border-color: #f7b53a;
+}
+#lista-doencas p {
+    margin-bottom: 0px;
+}
+
+#lista-doencas .panel-heading.actives {
+  background-color: #2d2d2d;
+  border-color: #2d2d2d;
+  color: white;
+}
+.buttons {
+    background: none;
+    border: 10px solid #333;
+    max-width: 291px;
+    height: 246px;
+    width: 100%;
+    padding: 18px;
+    transition: 0.25s
+}
+.buttons .img-responsive {
+  display: inline;
+}
+.buttons:hover {
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+.buttons:hover, .buttons:focus {
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+.telas .row div[class*="col-"] {
+  margin-top: 20px;
+}
+img[align="left"] {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+img[align="right"] {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-default {
+    background-color: unset !important;
+    border-color: unset !important;
+}
+.navbar-header {
+    float: right;
+}
+.legenda_menu {
+  display: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    width: 70px;
+}
+
+.icone_menu {
+  max-width: 100%;
+}
+
+.navbar-nav > li {
+    float: none;
+}
+.fh5co-nav-toggle i {
+    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    width: 25px;
+    height: 3px;
+    color: #535659;
+    font: bold 14px/.4 Helvetica;
+    text-transform: uppercase;
+    text-indent: -55px;
+    background: #535659;
+    transition: all .2s ease-out;
+}
+.fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background: #535659;
+  position: absolute;
+  left: 0;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+.menu ul li a:hover::after {
+	content:attr(data-tip);
+	color:#d4b555;
+	position:absolute;
+	top:80px;
+	left:calc(100% - 105px);
+	background-color:#3a3a3a;
+	padding:20px;
+	width:150px;
+	font-family: 'Roboto Condensed', sans-serif;
+	opacity:1;
+	animation:aparece ease-in 500ms;
+	-ms-animation:aparece ease-in 500ms;
+	-o-animation:aparece ease-in 500ms;
+	-moz-animation:aparece ease-in 500ms;
+	-webkit-animation:aparece ease-in 500ms;
+}
+
+.fh5co-nav-toggle i::before {
+  top: -7px;
+}
+
+.fh5co-nav-toggle i::after {
+  bottom: -7px;
+}
+
+.fh5co-nav-toggle:hover i::before {
+  top: -10px;
+}
+
+.fh5co-nav-toggle:hover i::after {
+  bottom: -10px;
+}
+
+
+.fh5co-nav-toggle.active i::before {
+  top: 0;
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  -o-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+
+.fh5co-nav-toggle.active i::after {
+  bottom: 0;
+  -webkit-transform: rotateZ(-45deg);
+  -moz-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+  -o-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+.fh5co-nav-toggle {
+  position: absolute;
+  top: 2px;
+  right: 15px;
+  z-index: 21;
+  padding: 6px 0 0 0;
+  display: block;
+  margin: 0 auto;
+  display: none;
+  height: 44px;
+  width: 25px;
+  border-bottom: none !important;
+}
+
+.caixa_destaque {
+  background-color: white;
+  padding: 60px;
+  top: 40px;
+  position: relative;
+}
+
+.caixa-aling-right {
+    margin-left: 25%;
+    padding-right: 25%;
+
+}
+
+.caixa-aling-left {
+  margin-right: 25%;
+  padding-left: 25%;
+}
+.caixa_destaque_interno {
+  border: 4px solid #fbb43e;
+  padding: 47.5px;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 1540px) {
+  .telas h1 {
+    font-size: 2.5em;
+  }
+  .caixa_destaque {
+    background-color: white;
+    padding: 40px;
+
+  }
+
+  .caixa-aling-right {
+    margin-left: 20%;
+    padding-right: 20%;
+  }
+
+  .caixa-aling-left {
+    margin-right: 20%;
+    padding-left: 20%;
+  }
+  #tela3 {
+    max-height: 1100px;
+  }
+}
+@media only screen and (max-width: 1170px) {
+  .caixa_destaque {
+    background-color: white;
+    padding: 40px;
+
+  }
+
+  .caixa-aling-right {
+    margin-left: 5%;
+    padding-right: 5%;
+  }
+
+  .caixa-aling-left {
+    margin-right: 5%;
+    padding-left: 5%;
+  }
+  #tela1 {
+    max-height: 1000px;
+  }
+  #tela2 {
+    max-height: 900px;
+  }
+  #tela3 {
+    max-height: 700px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #tela2 .row div[class*="col-"] {
+    margin-top: 20px;
+    text-align: center !important;
+  }
+  #tela2 {
+    max-height: 1900px;
+  }
+  #tela3 {
+    max-height: 1100px;
+  }
+
+}
+
+.navbar-default .navbar-toggle {
+  color: white !important;
+  border: 0px none !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff !important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: none;
+}
+
+.container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right:0px;
+    padding: 9px 10px;
+    margin-top: 14.5px;
+    margin-bottom: 10.5px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+      max-height: 410px !important;
+      overflow: hidden;
+  }
+  .menu.navbar-collapse.collapse {
+    border-top: 1px solid #fff;
+    box-shadow: none
+  }
+  .logo {
+      margin-top: 12px;
+      float: left;
+  }
+  .navbar-header {
+    width: 100%;
+      }
+
+  .menu {
+    /*display: block;*/
+width: 100%;
+  }
+  .menu ul li {
+      display: block;
+      width: 100%;
+  }
+  .caixa_destaque {
+    background-color: white;
+    padding: 20px;
+
+  }
+
+  .menu ul li a span {
+    display: block;
+    overflow: hidden;
+  }
+
+  .icone_menu {
+    float: left;
+    margin-right: 20px;
+  }
+  .legenda_menu {
+    display: block;
+    color: white;
+  }
+  .caixa-aling-right, .caixa-aling-left  {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  #tela1 {
+    max-height: unset;
+  }
+  #tela3 {
+    max-height: 2100px;
+  }
+
+  .telas h1::before {
+    float: none !important;
+    display: block !important;
+    /*height: 100px !important;*/
+    background-position: 0px 0px;
+}
+  #tela3 h1::before {
+    float: none !important;
+    display: block !important;
+    height: 132px !important;
+    background-position: 0px 0px;
+}
+  .telas h1 {
+    font-size: 2em;
+    padding: 30px;
+    padding-bottom: 5px;
+  }
+  hr.separador-titulo {
+    display: block;
+    float: none;
+    margin: unset;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-left: 30px;
+  }
+  .telas .container {
+    width: 100%;
+    padding: 0px;
+  }
+  #tela1 {
+    padding-top: 20px;
+  }
+  #tela2 {
+    padding-top: 20px;
+  }
+  #tela3 {
+    padding-top: 40px;
+  }
+  #tela4 {
+    padding-top: 40px;
+  }
+  #tela5 {
+    padding-top: 40px;
+  }
+  .caixa_destaque_interno {
+    border: 4px solid #fbb43e;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+  }
+
+}
+@media only screen and (max-width: 500px) {
+  #tela3 {
+    max-height: 2200px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  #tela3 {
+    max-height: 2500px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  #tela3 {
+    max-height: 3500px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #tela3 {
+    max-height: 3950px;
+  }
+}
+.no-background {
+  background-color: unset !important;
+  background: none;
+}

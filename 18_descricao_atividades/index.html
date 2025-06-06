@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Planejar e documentar aplicações web</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/tecnicos_senac.css" rel="stylesheet">
+    <link href="css/cores.css" rel="stylesheet">
+    <link href="css/sncload.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- referencia ao arquivo css com estilos especificos da pagina -->
+    <!--<link href="custom.css" type="text/css" rel="stylesheet"> -->
+    <!-- css necessario para o print -->
+    <link href="css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="css/print.css" type="text/css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>@media print{ .no-print{display: none !important}}</style>
+
+  
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Jo�o Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">92928600.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Jo�o Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';">
+    <!-- MARCA D´ÁGUA -->
+    <img src="images/logo_senac_colorido.png" id="marcadaguaLogo">
+    <!-- /MARCA D´ÁGUA -->
+
+    <div id='sncloader' class='over-loader'><div class="over-cell"><div id="sncload"></div></div></div>
+    <header id="topo" class="senac no-print">
+      <div  class="header-tecnicos container">
+          <h1 id="nome-curso">Segurança do trabalho</h1>
+          <div id="logo-senac"><img src="images/logo-senac.png" alt="logo do senac"></div>
+      </div>
+      <div id="sombra"></div>
+    </header>
+
+    <div id="booklet" class="container-fluid fundo-tecnicos">
+
+        <!-- section que contém as páginas-->
+        <section class="paginas">
+          <!-- corpo da pagina--->
+          <div class="pagina">
+            <!-- session1 -->
+            <div class="container-fluid bg-claro session1">
+              <div class="row">
+                <div class="container">
+                  <div class="row">
+                    <!-- botão imprimir -->
+                    <header class="no-print">
+                      <div class="grupo-imprimir no-print">
+                        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+                            <span class="fa fa-print"></span> <span>Imprimir</span>
+                        </button>
+                      </div>
+                    </header>
+                    <!--/botão imprimir -->
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h2>Descrição de atividades laborais e elaboração de ordens de serviço</h2>
+                      <h3>Introdução</h3>
+                      <p>Para realizar alguns procedimentos na área de segurança do trabalho, é necessário conhecer as rotinas dos trabalhadores, os processos e a forma como estes são realizados. Essas informações podem servir de base para conduzir uma análise de risco, construir procedimentos de trabalho, definir estratégias de controle e até mesmo propor novas formas de execução das tarefas.</p>
+                      <p>Mesmo que o técnico em segurança do trabalho já esteja habituado ou já conheça as rotinas de trabalho dos colaboradores, elas devem ser documentadas para garantir que os requisitos normativos sejam atendidos e realizados sobre uma base comum.</p>
+                      <p>Um dos requisitos normativos de caráter fundamental é a ordem de serviço de segurança e saúde no trabalho. Ela é um documento que contém as principais orientações ao trabalhador para evitar a ocorrência de acidentes e o desenvolvimento de doenças ocupacionais. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /session1 -->
+
+            <!-- session 2-->
+            <div class="container-fluid bg-azul-escuro session2">
+              <div class="row">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 hidden-sm">
+                      <div class="responsive">
+                        <img src="objetos/foto_1.png" class="center-block img-responsive" aria-hidden="true">
+                        <img src="objetos/foto_2.png" class="center-block img-responsive" aria-hidden="true">
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                      <h3>Descrição de atividades laborais</h3>
+                        <p>Para elaborar ou revisar documentos que contenham a descrição das atividades laborais de um trabalhador, é imprescindível fazer um levantamento de campo. Tal levantamento envolve uma etapa de entrevistas com o trabalhador para obter informações sobre a rotina deste – mesmo quando já existe um documento com essas informações –, pois o trabalho prescrito pode diferir do trabalho real e ainda ser uma consequência natural devido às mudanças de equipamentos ou de tecnologia de produção, por exemplo. </p>
+                        <p>Não há uma frequência para a realização das entrevistas ou das revisões. Contudo, pode-se determinar algum padrão de gestão da empresa que exija uma revisão com intervalos de tempo fixos.</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p>Ainda, quando alguma alteração importante ocorre, como mudança de função do trabalhador, inserção e operação de novas máquinas, mudança dos sistemas de proteção e das formas de controle, uma revisão da documentação é necessária.</p>
+                    <p>Sempre que houver uma atualização, é importante manter alguma forma de controle sobre os documentos (por exemplo, controle de versão, forma de arquivamento e divulgação).</p>
+                    <p>Para realizar as entrevistas e o levantamento de campo, alguns pontos importantes devem ser revisados. São eles:</p>
+                    <div class="painel-setas no-print" aria-hidden="true">
+                      <button type="button" class="bt-modal bt-atividades" data-toggle="modal" data-target="#myModal1"></button>
+                      <button type="button" class="bt-modal bt-como" data-toggle="modal" data-target="#myModal2"></button>
+                      <button type="button" class="bt-modal bt-perigos" data-toggle="modal" data-target="#myModal3"></button>
+                      <button type="button" class="bt-modal bt-ambiente" data-toggle="modal" data-target="#myModal4"></button>
+                      <button type="button" class="bt-modal bt-controles" data-toggle="modal" data-target="#myModal5"></button>
+
+                      <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel">Atividades desempenhadas</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>Todas as atividades que são realizadas pelo trabalhador, inclusive as não rotineiras, tais como manutenção, devem ser descritas.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel">Como as atividades são desempenhadas</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>Quando o processo de trabalho é complexo e envolve um risco substancial, como na manutenção de rede elétrica energizada, pode ser interessante descrever o processo por etapas. Para outros casos, de menor complexidade, como nas atividades desempenhadas por um pintor (que não envolvam trabalho em altura), às vezes uma descrição geral é suficiente. </p>
+                              <p>Indicação ou não de uso de equipamentos e máquinas, forma como a atividade é realizada (manualmente, por exemplo), postura de trabalho, entre outros, são exemplos de informações importantes para o levantamento.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel">Fatores de risco ou perigos envolvidos</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>Todos os perigos associados à atividade devem ser descritos. Em uma etapa posterior, é necessário identificar as consequências para a segurança e para a saúde que decorrem da exposição aos fatores de riscos ocupacionais.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel">Ambiente de trabalho</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>Eventualmente, o ambiente de trabalho pode oferecer fatores de risco adicionais aos trabalhadores. Por exemplo, uma atividade de inspeção de peças automotivas que ocorre em área de produção pode expor o trabalhador ao ruído de máquinas. </p>
+                              <p>Outros exemplos de situações que podem envolver fatores de risco adicionais são trabalho em ambientes alagadiços, trabalho em áreas classificadas (áreas com potencial de formação de atmosferas explosivas), atividades com exposição à carga solar, à radiação ultravioleta (como em atividades realizadas na presença de solda elétrica).</p>
+                              <p>Os fatores de risco adicionais exemplificados podem ser tratados diretamente na etapa de identificação de perigos, desde que o responsável pelo levantamento considere o ambiente onde ocorre a atividade.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                              <h4 class="modal-title" id="myModalLabel">Controles existentes</h4>
+                            </div>
+                            <div class="modal-body">
+                              <p>Durante o levantamento das demais informações, devem-se coletar dados sobre as medidas de proteção empregadas. Tais medidas são aquelas já aplicadas para controle na fonte, controle na trajetória e controle no receptor.</p>
+                              <p>Quando existentes, as medidas de controle devem ser verificadas em campo e depois confrontadas com os documentos ou as análises que definiram o tipo e as formas de uso dessas medidas, incluindo limitações ou restrições de emprego. Em atividades que envolvam diferentes fatores de risco ou níveis diferentes de riscos, é necessário relacionar cada etapa com os controles empregados.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="acessivel print">
+                      <h4>Atividades desempenhadas</h4>
+                      <p>Todas as atividades que são realizadas pelo trabalhador, inclusive as não rotineiras, tais como manutenção, devem ser descritas.</p>
+                      <h4>Como as atividades são desempenhadas</h4>
+                      <p>Quando o processo de trabalho é complexo e envolve um risco substancial, como na manutenção de rede elétrica energizada, pode ser interessante descrever o processo por etapas. Para outros casos, de menor complexidade, como nas atividades desempenhadas por um pintor (que não envolvam trabalho em altura), às vezes uma descrição geral é suficiente. </p>
+                      <p>Indicação ou não de uso de equipamentos e máquinas, forma como a atividade é realizada (manualmente, por exemplo), postura de trabalho, entre outros, são exemplos de informações importantes para o levantamento.</p>
+                      <h4>Fatores de risco ou perigos envolvidos</h4>
+                      <p>Todos os perigos associados à atividade ou pelo menos os riscos ocupacionais envolvidos devem ser descritos. Em uma etapa posterior, é necessário identificar as consequências para a segurança e para a saúde que decorrem da exposição aos riscos ocupacionais.</p>
+                      <h4>Ambiente de trabalho</h4>
+                      <p>Eventualmente, o ambiente de trabalho pode oferecer fatores de risco adicionais aos trabalhadores. Por exemplo, uma atividade de inspeção de peças automotivas que ocorre em área de produção pode expor o trabalhador ao ruído de máquinas. </p>
+                      <p>Outros exemplos de situações que podem envolver fatores de risco adicionais são trabalho em ambientes alagadiços, trabalho em áreas classificadas (áreas com potencial de formação de atmosferas explosivas), atividades com exposição à carga solar, à radiação ultravioleta (como em atividades realizadas na presença de solda elétrica).</p>
+                      <p>Os fatores de risco adicionais exemplificados podem ser tratados diretamente na etapa de identificação de perigos, desde que o responsável pelo levantamento considere o ambiente onde ocorre a atividade.</p>
+                      <h4>Controles existentes</h4>
+                      <p>Durante o levantamento das demais informações, devem-se coletar dados sobre as medidas de proteção empregadas. Tais medidas são aquelas já aplicadas para controle na fonte, controle na trajetória e controle no receptor.</p>
+                      <p>Quando existentes, as medidas de controle devem ser verificadas em campo e depois confrontadas com os documentos ou as análises que definiram o tipo e as formas de uso dessas medidas, incluindo limitações ou restrições de emprego. Em atividades que envolvam diferentes risco ou níveis diferentes de riscos, é necessário relacionar cada etapa com os controles empregados.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div style="margin-top:30px;" class="separador-azul row">
+              </div>
+            </div>
+            <!--/session 2-->
+
+            <!--session 3-->
+            <div class="container-fluid bg-amarelo session3">
+              <div class="row">
+                <div class="container">
+                  <div class="row">
+                    <p>O número de informações a serem coletadas depende do propósito de uso dos dados obtidos. Quando a empresa não conta com uma cultura de segurança ou quando existem pontos falhos no gerenciamento desta, um número maior de informações deve ser coletado visando a atender às normas regulamentadoras (NRs), mantendo a empresa dentro de um nível aceitável de gestão de segurança. Esses dados são utilizados na elaboração de programas, na definição de procedimentos e treinamentos e em análises de risco.</p>
+                    <p>Caso haja a necessidade de um trabalho que abranja toda a empresa ou um grande número de atividades e trabalhadores, é preciso, antes do início do levantamento, fazer um planejamento que priorize aquelas atividades de caráter crítico. </p>
+                    <p>As atividades críticas envolvem perigo imediato à vida ou à saúde (por exemplo, atividades com movimentação de grandes cargas; em espaços confinados e em altura; em rede elétrica energizada; com manuseio de substâncias carcinogênicas; com exposição a fontes radioativas; em ambientes hiperbáricos).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/session 3-->
+
+            <!-- session 4-->
+            <div class="container-fluid bg-claro session4">
+                <div class="row">
+                  <div class="container">
+                    <div class="row">
+                      <p>Independentemente dos objetivos do levantamento de informações, a identificação de perigos ou do fator de risco <strong>deve ser realizada separadamente da avaliação do nível de risco</strong>. </p>
+                      <p>O nível de risco deve ser definido em etapa posterior, pois poderão existir condições para que determinado fator de risco, considerado inicialmente irrelevante, seja, após uma análise mais detalhada, considerado importante.</p>
+                      <p>Eventualmente, para fazer os levantamentos, não é possível dispor de um equipamento eletrônico, como um computador, para realizar as anotações. Sendo assim, é interessante ter um modelo (figura 1) para uso em campo. O uso de um modelo auxilia a manter uma organização nos dados e também ajuda a não esquecer alguma informação.</p>
+                      <p>Além disso, na descrição das atividades laborais, a linguagem utilizada deve ser clara. Embora não seja obrigatório, é preferível utilizar verbos no infinitivo, conforme exemplos a seguir. </p>
+                      <img src="objetos/figura1.png" class="center-block img-responsive" alt="A figura apresenta um modelo de planilha com os seguintes campos: versão; responsável pelo preenchimento; atividade avaliada; função do trabalhador; descrição das atividades realizadas; perigos e riscos ocupacionais; descrição do ambiente de trabalho; controles existentes; e, por fim, observações. ">
+                      <p class="legenda-imagem">
+                        Figura 1 – Exemplo de planilha de campo
+                      </p>
+                      <p class="acessivel no-print">A figura apresenta um modelo de planilha com os seguintes campos: versão; responsável pelo preenchimento; atividade avaliada; função do trabalhador; descrição das atividades realizadas; perigos e riscos ocupacionais; descrição do ambiente de trabalho; controles existentes; e, por fim, observações.</p>
+                      <p>Clique para baixar o conteúdo em PDF.</p>
+                      <a class="bt-pdf" href="objetos/levantamento_campo.pdf" alt="Levantamento de campo em PDF" target="_blank"></a>
+                      <div class="caixa-destaque">
+                        <p><strong>Exemplo 1</strong></p>
+                        <p><strong>Empresa:</strong> clínica odontológica.</p>
+                        <p><strong>Função:</strong> técnica em saúde bucal.</p>
+                        <p><strong>Descrição das atividades:</strong> auxiliar em cirurgias odontológicas; recolher material de uso odontológico (instrumentação) e resíduos originados no processo; esterilizar material odontológico por meio de higienização com produto de limpeza (detergente enzimático) e passagem em autoclave; operar equipamento manual do tipo seladora; operar equipamento de raios X móvel, para radiografias da arcada dentária; revelar as imagens dos raios X com revelador e fixador específicos.</p>
+                      </div>
+                      <div class="caixa-destaque">
+                        <p><strong>Exemplo 2</strong></p>
+                        <p><strong>Empresa:</strong> hotel.</p>
+                        <p><strong>Função:</strong> auxiliar de manutenção.</p>
+                        <p><strong>Descrição das atividades:</strong> auxiliar na execução das atividades de manutenção preventiva, baseando-se em <i>checklist</i>; verificar e inspecionar o funcionamento de bombas e caixa d’água, iluminação, caldeira; ler e registrar o consumo de gás, água e energia elétrica; executar manutenção corretiva nos apartamentos envolvendo elétrica e hidráulica; realizar pequenos reparos de alvenaria e marcenaria; inspecionar os equipamentos de combate a incêndio. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div style="margin-top:60px;" class="separador-azul row">
+                </div>
+            </div>
+            <!--/session 4-->
+
+            <!--session 5-->
+            <div class="container-fluid bg-azul-escuro session5">
+                <div class="row">
+                  <div class="container">
+                    <div class="row">
+                      <h3>Ordem de serviço de segurança e saúde no trabalho</h3>
+                      <p>A ordem de serviço é um documento fundamental na área de segurança do trabalho e tem como objetivo principal <strong>organizar as informações</strong> sobre aspectos relacionados à segurança dos trabalhadores, visando a prevenir as ocorrências de acidentes e as doenças ocupacionais.</p>
+                      <p>A NR-1 estabelece que os empregados devem receber informações sobre as questões de segurança de seu ambiente de trabalho. Embora a norma estabeleça essa necessidade, não há um modelo definido ou uma única opção para que essas informações sejam repassadas. Muitas empresas utilizam um documento chamado “ordem de serviço” para atender a esse item. Além de cumprir um requisito legal, a ordem de serviço constitui um registro de que o trabalhador recebeu as informações necessárias. </p>
+                      <div class="destaque icone">
+                        <img src="objetos/icone_atencao.png" aria-hidden="true">
+                        <p>Como a ordem de serviço agrega informações, a construção dela depende de outros dados. O início da elaboração desse documento – e de muitos documentos de segurança e saúde no trabalho – requer o conhecimento das atividades que serão desenvolvidas e dos perigos à segurança e à saúde associados à atividade. </p>
+                      </div>
+                      <p>Após a etapa de mapeamento das atividades (figura 1), prossegue-se para uma análise preliminar de riscos (APR), a qual leva em conta três parâmetros: gravidade da lesão ou da doença relativa ao risco; frequência de exposição ao risco; e probabilidade de ocorrência da lesão ou da doença.</p>
+                      <p>Quando um risco é classificado como relevante na APR, medidas para controlá-lo são propostas. Caso já haja um conjunto de medidas de controle, estas são avaliadas no momento em que o parâmetro “probabilidade de ocorrência da lesão ou da doença” é avaliado.</p>
+                      <div class="col-md-2 hidden-xs">
+                        <div class="responsive">
+                          <img src="objetos/ilustra_checklist.png" aria-hidden="true">
+                        </div>
+                      </div>
+                      <div class="col-md-10 col-xs-12">
+                          <p>Quando a APR estiver concluída, em alguns casos é preciso, para as atividades críticas, elaborar permissões de trabalho. A permissão de trabalho (PT) é um documento estruturado como uma <i>checklist</i>, no qual todos os requisitos devem ser atendidos para que a execução da atividade seja liberada.</p>
+                      </div>
+                      <p style="clear: both;">Os requisitos da PT também podem ser oriundos das NRs que determinam certas condições obrigatórias para a atividade. Por exemplo, a NR-33, que trata de espaços confinados, exige a disponibilidade de equipe de resgate de emergência. Portanto, um dos pontos da PT é a disponibilidade da equipe. </p>
+                      <p>Na NR-33, tal permissão é chamada de PET (permissão de entrada e trabalho). Independentemente da exigência de uma PT (ou PET), os requisitos normativos que se relacionam às atividades ou aos riscos ocupacionais devem ser considerados para a elaboração das ordens de serviço.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--/session 5-->
+
+            <!-- session 6-->
+            <div class="container-fluid bg-amarelo session6">
+                <div class="row">
+                  <div class="container">
+                    <div class="row">
+                      <p>Concluídas tais etapas, um treinamento deve ser estruturado com base na análise de riscos e em algumas NRs. Nesse momento, a ordem de serviço de segurança e saúde no trabalho já pode ser desenvolvida ou atualizada. Assim, quando o trabalhador ingressar em suas rotinas, ele já terá recebido as instruções de segurança e uma via da ordem de serviço. Aliás, quando o trabalhador receber a sua via da ordem de serviço, <strong>é fundamental que ela possa ser rastreada.</strong></p>
+                      <p>Se a empresa não conta com um padrão estabelecido para a ordem de serviço, um modelo inicial (figura 2) pode auxiliar na elaboração desse documento. Os seguintes campos podem estar presentes: </p>
+                      <div class="panel-group no-print" id="accordion" role="tablist" aria-multiselectable="true" aria-hidden="true">
+                        <div class="panel panel-default">
+                          <div class="panel-heading active" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Atividades desenvolvidas
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                              <p>Todas as atividades que são desenvolvidas em determinada função devem ser descritas. Aqui também podem ser incluídas as atividades que o trabalhador não está apto a executar, mas que guardam alguma relação com as rotinas dele. Se forem incluídas, é importante ficar clara a diferenciação no texto. Um campo adicional pode ser criado, caso haja necessidade.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Riscos na atividade
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                              <p>Os fatores de riscos físicos, químicos, biológicos, ergonômicos e de acidentes inerentes à atividade e ainda aqueles oriundos do ambiente de trabalho devem ser descritos. Quando vários fatores de risco se apresentam, é útil separá-los por tipo de atividade desenvolvida.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Medidas preventivas gerais
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                              <p>As formas de proteção existentes para prevenção de acidentes e doenças ocupacionais devem ser mencionadas. As medidas preventivas gerais contemplam as medidas de ordem e de organização do trabalho. Quando é preciso utilizar outros documentos, eles podem ser referenciados aqui. Equipamentos de proteção individual (EPIs) não são descritos neste campo.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingFour">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                EPIs
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                            <div class="panel-body">
+                              <p>Os EPIs a serem utilizados em cada etapa das atividades devem ser citados. Como os EPIs podem variar em função do tipo de fator de risco ou da intensidade deste, um campo exclusivo é mais adequado.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingFive">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Normas internas
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourFive">
+                            <div class="panel-body">
+                              <p>Algum padrão determinado pela empresa e que deve ser seguido pelo trabalhador precisa ser estipulado e descrito neste campo. Inclusive, quando este campo existir, pode fazer referência a outros documentos.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingSix">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Treinamentos recebidos
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourSix">
+                            <div class="panel-body">
+                              <p>Aqui devem ser listados os treinamentos recebidos pelo funcionário até a data de emissão da ordem de serviço. Tal menção não substitui os registros de treinamentos. </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading" role="tab" id="headingSeven">
+                            <h4 class="panel-title">
+                              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Procedimento em caso de acidente
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourSeven">
+                            <div class="panel-body">
+                              <p>Em caso de acidente de trabalho, deve ser descrito o que trabalhador deve fazer. Uma informação básica deste campo é o setor da empresa ou quem deve ser comunicado em caso de ocorrência do acidente.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="acessivel print">
+                        <h4>Atividades desenvolvidas</h4>
+                        <p>Todas as atividades que são desenvolvidas em determinada função devem ser descritas. Aqui também podem ser incluídas as atividades que o trabalhador não está apto a executar, mas que guardam alguma relação com as rotinas dele. Se forem incluídas, é importante ficar clara a diferenciação no texto. Um campo adicional pode ser criado, caso haja necessidade.</p>
+                        <h4>Riscos na atividade</h4>
+                        <p>Os fatores de riscos físicos, químicos, biológicos, ergonômicos e de acidentes inerentes à atividade e ainda aqueles oriundos do ambiente de trabalho devem ser descritos. Quando vários fatores de risco se apresentam, é útil separá-los por tipo de atividade desenvolvida.</p>
+                        <h4>Medidas preventivas gerais</h4>
+                        <p>As formas de proteção existentes para prevenção de acidentes e doenças ocupacionais devem ser mencionadas. As medidas preventivas gerais contemplam as medidas de ordem e de organização do trabalho. Quando é preciso utilizar outros documentos, eles podem ser referenciados aqui. Equipamentos de proteção individual (EPIs) não são descritos neste campo.</p>
+                        <h4>EPIs</h4>
+                        <p>Os EPIs a serem utilizados em cada etapa das atividades devem ser citados. Como os EPIs podem variar em função do tipo de fator risco ou da intensidade deste, um campo exclusivo é mais adequado.</p>
+                        <h4>Normas internas</h4>
+                        <p>Algum padrão determinado pela empresa e que deve ser seguido pelo trabalhador precisa ser estipulado e descrito neste campo. Inclusive, quando este campo existir, pode fazer referência a outros documentos.</p>
+                        <h4>Treinamentos recebidos</h4>
+                        <p>Aqui devem ser listados os treinamentos recebidos pelo funcionário até a data de emissão da ordem de serviço. Tal menção não substitui os registros de treinamentos. </p>
+                        <h4>Procedimento em caso de acidente</h4>
+                        <p>Em caso de acidente de trabalho, deve ser descrito o que trabalhador deve fazer. Uma informação básica deste campo é o setor da empresa ou quem deve ser comunicado em caso de ocorrência do acidente.</p>
+                      </div>
+                      <div class="destaque icone">
+                        <img src="objetos/icone_dica.png" aria-hidden="true">
+                        <p>A estrutura da ordem de serviço pode incluir um campo de termo de responsabilidade, no qual o trabalhador é advertido sobre as consequências do descumprimento do estabelecido no documento. </p>
+                      </div>
+                      <p>Embora esse documento seja um guia para a adoção de práticas seguras pelos trabalhadores, ele não elimina as inspeções de campo realizadas pelo técnico em segurança do trabalho. </p>
+                      <p>As inspeções têm caráter preventivo e não punitivo. Assim, se algum desvio é constatado, deve ser verificado se as instruções foram passadas em linguagem adequada para os trabalhadores, se eles entendem a importância das proteções empregadas e se os equipamentos de proteção são substituídos com a frequência determinada.</p>
+                      <img src="objetos/figura2.png" class="center-block img-responsive" alt="A figura apresenta um modelo de ordem de serviço. Além dos campos já comentados, ela apresenta os seguintes campos na parte superior: nome do funcionário, data de admissão, função/cargo e Código Brasileiro de Ocupações (CBO). Na parte inferior, estão os campos: assinatura do funcionário, responsável da empresa, data e revisão.">
+                      <p class="legenda-imagem">
+                        Figura 2 – Exemplo de ordem de serviço
+                      </p>
+                      <p class="acessivel no-print">A figura apresenta um modelo de ordem de serviço. Além dos campos já comentados, ela apresenta os seguintes campos na parte superior: nome do funcionário, data de admissão, função/cargo e Código Brasileiro de Ocupações (CBO). Na parte inferior, estão os campos: assinatura do funcionário, responsável da empresa, data e revisão.</p>
+                      <a class="bt-pdf" href="objetos/ordem_servico.pdf" alt="Exemplo de ordem de serviço em PDF" target="_blank"></a>
+                    </div>
+                  </div>
+                </div>
+                <div style="margin-top:60px;" class="separador-azul row">
+                </div>
+            </div>
+            <!--/session 6-->
+            
+            <!--session 7-->
+            <div class="container-fluid bg-claro session7">
+                <div class="row">
+                  <div class="container">
+                    <h3>Considerações finais</h3>
+                    <p>O conhecimento das atividades desempenhadas por um trabalhador, considerando os perigos envolvidos e o ambiente de trabalho, constitui uma etapa fundamental na prevenção de acidentes e de doenças ocupacionais e que deve ser documentada.</p>
+                    <p>Conhecer as atividades é a base para a elaboração de uma série de documentos na área de segurança, tais como a ordem de serviço de segurança e saúde no trabalho, já trabalhada neste conteúdo.</p>
+                    <a class="bt-voltar" href="#booklet" alt="voltar ao topo"></a>
+                  </div>
+                </div>
+            </div>   
+     
+          </div>
+          <!--/corpo da pagina---->
+        </section>
+        <!-- /section que contém as páginas-->
+
+        <!-- footer da página-->
+        <footer class="text-center no-print">
+          <ul class="pagination">
+          </ul>
+        </footer>
+        <!-- footer da página-->
+      </div>
+
+
+
+    <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+	-->
+<!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+<div class="ico-div-loader">
+	  <img src="images/atencao.png">
+    <img src="images/bg-content.jpg">
+    <img src="images/bg-topo.jpg">
+    <img src="images/black-zoom-in-256.png">
+    <img src="images/concluindo.png">
+    <img src="images/curtir.png">
+    <img src="images/desafio.png">
+    <img src="images/dica.png">
+    <img src="images/doc.png">
+    <img src="images/fundamental.png">
+    <img src="images/icon-03.png">
+    <img src="images/importante.png">
+    <img src="images/lightbulb.png">
+    <img src="images/link.png">
+    <img src="images/link_pdf_hover.png">
+    <img src="images/link_pdf_normal.png">
+    <img src="images/logo-senac.png">
+    <img src="images/mark-icon.png">
+    <img src="images/mark-icon02.png">
+    <img src="images/midia.png">
+    <img src="images/monitor.png">
+    <img src="images/nao_curtir.png">
+    <img src="images/pergunta.png">
+    <img src="images/pesquisa.png">
+    <img src="images/play.png">
+    <img src="images/radio_flat.png">
+    <img src="images/refletir.png">
+    <img src="images/saiba_mais.png">
+    <img src="images/senac_loader.png">
+    <img src="images/tanamidia.png">
+    <img src="images/transcricao.png">
+    <img src="images/transcricao_small.png">
+    <img src="images/tv.png">
+    <img src="images/tv_bottom.png">
+    <img src="images/zoom.png">
+    <img src="images/zoom_ie.cur">
+    <img src="images/zoom_ie.png">
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/print.js"></script>
+<script src="js/template.config.js"></script>
+<script src="js/images.loader.js"></script>
+<script src="js/extras.js"></script>
+<noscript>
+  <style media="screen">
+    .over-loader { display: none;}
+  
+  </style>
+</noscript>
+</body>
+</html>
+<script>
+   $(".bt-voltar").click(function () {
+      $('html, body').animate({ scrollTop: 0 }, "slow");
+      return false;
+    });
+  $(".panel-heading").click(function(){
+    $(this).addClass("active");
+  });
+	//inicializa zoom na imagem
+	$('.zoom-imagem').magnificPopup({
+	 type: 'image',
+  	 mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+ 	 zoom: {
+		enabled: true, // By default it's false, so don't forget to enable it
+
+		duration: 300, // duration of the effect, in milliseconds
+		easing: 'ease-in-out', // CSS transition easing function
+
+		// The "opener" function should return the element from which popup will be zoomed in
+		// and to which popup will be scaled down
+		// By defailt it looks for an image tag:
+		opener: function(openerElement) {
+		  // openerElement is the element on which popup was initialized, in this case its <a> tag
+		  // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+		  return openerElement.is('img') ? openerElement : openerElement.find('img');
+		}
+	  },
+	   image: {
+		  markup: '<div class="mfp-figure">'+
+					'<div class="mfp-close"></div>'+
+					'<div class="mfp-img"></div>'+ // Floated left
+					'<div class="mfp-bottom-bar">'+'<figcaption>'+'<div class="mfp-title" style="text-align:center"></div>'+
+					  '<div class="mfp-counter"></div>'+'</figcaption>'+
+					'</div>'+
+				  '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+		  cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+		  tError: '<a href="%url%">A imagem</a> não pode ser carregada.' // Error message
+	   }
+	});
+
+	//inicializa popover
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+	//inicializa tooltip
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+
+</script>
+<!-- Script de configuração do HANDTALK -->
+<script>
+  var scriptElem = document.createElement("script");
+  scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+    scriptElem.charset = "UTF-8",
+    scriptElem.onload = function () {
+      window.ht = new HT({
+        token: "bf5b7efb148a829a126a0e0c9fd533bf",
+        align: "top",
+        videoEnabled: true,
+        ytEmbedReplace: true,
+        mobileConfig: {
+          align: "right",
+          actionsAlign: "top",
+          customButtonStyle: {
+            borderRadius: "6px",
+            size: "38px",
+            horizontalMargin: "13px",
+            bottomMargin: "140px",
+            rightMargin: "40px"
+          }
+        }
+      });
+      $('.ht-skip').attr("aria-hidden", "true")
+    },
+    document.body.appendChild(scriptElem);
+</script>
+<!-- --------------------------------------------------------------------- -->

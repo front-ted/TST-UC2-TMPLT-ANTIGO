@@ -1,0 +1,9 @@
+.pagination>li>a, .pagination>li>span{
+    border:none;
+    padding: 6px 2px;
+}
+.pagination>li>a:hover{background-color: #fff;}
+.pagination{margin-left: 24%;}
+@media screen and (max-width:550px){
+    h2{margin-top: 80px;}
+}

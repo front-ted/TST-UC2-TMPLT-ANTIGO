@@ -1,0 +1,56 @@
+<!doctype html>
+<!--
+/**
+ * jsPDF Context2d PlugIn
+ * Copyright (c) 2014 Steven Spungin (TwelveTone LLC)  steven@twelvetone.tv
+ *
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+-->
+
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>Context2D Paths Test</title>
+
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">João Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">386933200.000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">João Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body style='background-color: silver; margin: 0;'>
+
+<script src="../../dist/jspdf.min.js"></script>
+<script src="../js/test_harness.js"></script>
+
+<script>
+	var pdf = new jsPDF('p', 'pt', 'letter');
+	var context = pdf.context2d;
+
+	context.beginPath();
+	context.arc(150,150,50,0,Math.PI, false);
+	context.lineTo(300,300);
+	//context.moveTo(300,150);
+	//context.rect(5,5,150,150);
+	//context.arc(150,150,50,0,Math.PI, false);
+	context.stroke();
+
+	context.fillStyle = 'red';
+	context.fillRect(545,205,50,40);
+
+	pdf_test_harness_init(pdf);
+
+</script>
+
+</head>
+
+</body>
+</html>

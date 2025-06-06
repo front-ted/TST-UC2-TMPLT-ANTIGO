@@ -1,0 +1,310 @@
+@font-face {
+    font-family: robotoSlabBold;
+    src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+@font-face {
+    font-family: robotoLight;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: robotoSlabLight;
+    src: url(../fonts/RobotoSlab-Light.ttf);
+}
+.bto-imprimir-img {
+    text-align: right;
+}
+.bto-imprimir-img button:hover {
+  background: url(../objetos/botoes-10.png) top left / 100% auto no-repeat;
+}
+.bto-imprimir-img button {
+    background: url(../objetos/botoes-09.png) top left / 100% auto no-repeat;
+    cursor: pointer;
+    width: 180px;
+    height: 60px;
+    border: 0px none;
+    color: rgba(0,0,0,0);
+}
+.container{max-width: 1100px;}
+h2{
+    font-family: robotoSlabBold;
+    color: #fff;
+}
+p,strong{font-family: robotoregular;}
+.bg1{
+    background: #292929;
+    margin-top: 80px;
+    padding: 80px 0;
+    color: #fff;
+}
+.bg1 h2{font-size: 40px;}
+.bg1 .img{margin-top: 13%;}
+.topo1{
+    background: url('../objetos/topo1.png') no-repeat center center;
+    width: 174px;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+}
+.bg2{
+    background: url('../objetos/patter1.png') repeat;
+    background-attachment: fixed;
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+    margin-top: -40px;
+    color: #fff;
+}
+.bg2 h3{
+    font-family: robotoSlabBold;
+    color: #fff;
+    font-size: 30px;
+}
+.bg2 h4{
+    font-family: robotoSlabBold;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.bg2 p{margin-top: 10px;}
+.bg2 strong{font-size: 18px;}
+.importante{
+    border: 10px solid #fff;
+    padding: 40px 250px;
+    text-align: center;
+    background: url('../objetos/icone-importante.png') no-repeat 15% center;
+    margin: 7% 0 !important;
+}
+.topo2{background: url('../objetos/topo2.png') no-repeat center center;}
+.bg3{
+    background: url('../objetos/3.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0;
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.opacidade{
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 60px 100px;
+    width: 70%;
+    margin: 10% 0;
+}
+
+.topo3{
+    background: url('../objetos/topo3.png') no-repeat center center;
+    width: 100%;
+    height: 44px;
+    margin-top: -40px;
+}
+.bg4{
+    background: #fff;
+    padding: 70px 0;
+}
+.bg4 h3{
+    border-bottom: 8px solid #292929;
+    font-size: 20px;
+    font-family: robotoSlabBold;
+    color: #292929;
+    padding: 12px 0;
+    text-align: center;
+    margin-top: 0;
+}
+.bg4 .coluna{
+    border-bottom: 8px solid #292929;
+    border-top: 8px solid #292929;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.bg4 .coluna p{
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 12px 0;
+}
+.bg4 h3.analise{
+    border-top: 8px solid #292929;
+    margin-top: 5px;
+}
+.bg4 h3.controle{border-top: 8px solid #292929;}
+.bg4 .img1, .bg4 .img2{
+    border-bottom: 8px solid #292929;
+}
+.bg4 .coluna .paragrafo2{
+    padding-bottom: 23px;
+}
+.bg4 .coluna p:last-child{padding-bottom: 22px;}
+.bg5{
+    background: #ffb628;
+    padding: 70px 0;
+    color: #292929;
+}
+.bg5 p{font-size:18px;}
+.bg5 ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 40px 0 40px 0;
+    overflow: hidden;
+}
+.bg5 li{
+    background: url('../objetos/marcadorbranco.png') no-repeat left top;
+    list-style-image: none;
+    padding-left: 50px;
+    float: left;
+    width: 45%;
+    font-size: 18px;
+}
+.bg5 li strong{font-family: robotoSlabBold;}
+
+.topo4{
+    background: url('../objetos/topo4.png') no-repeat center center;
+    width: 100%;
+    height: 43px;
+}
+.bg6{
+    background: #292929;
+    margin-top: -43px;
+    padding: 50px 0;
+    color: #fff;
+}
+.bg6 ul{
+    width: 40%;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 50px;
+}
+.bg6 li{
+    background: url('../objetos/marcadorbranco.png') no-repeat left top;
+    list-style-image: none;
+    padding-left: 60px;
+    margin-bottom: 50px;
+}
+
+.topo5{
+    background: url('../objetos/topo5.png') no-repeat center center;
+    width: 100%;
+    height: 43px;
+}
+.bg7{
+    background: url('../objetos/bg.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 80px 0;
+    margin-top: -43px;
+    position: relative;
+    z-index: 1;
+}
+.bg7 .opacity{
+    background-color:rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    overflow: hidden;
+}
+.bg7 .opacity p{
+    font-size: 17px;
+}
+.bg7 .opacity ul{
+    padding: 0;
+    float: left;
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 60px;
+}
+.bg7 .opacity li{
+    background: url('../objetos/marcadorazul.png') no-repeat left top;
+    list-style-image: none;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.bg8{
+    background: #fff;
+    color: #292929;
+    padding: 70px 0;
+}
+.bg8 h3{
+    font-family: robotoSlabBold;
+    color: #292929;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+.bg8 p{font-size: 1.2em;}
+.bg8 .pdf{
+    background: url('../objetos/botao2.png') no-repeat;
+    width: 223px;
+    height: 238px;
+    display: block;
+}
+.bg8 .pdf:hover{background: url('../objetos/hover (2).png') no-repeat;}
+
+.bg9{
+    background: #292929;
+    color: #fff;
+    padding: 60px 0;
+}
+.bg9 p{font-size: 1.2em;}
+.bg9 strong{font-family: robotoSlabBold;}
+.icone-para-refletir{
+    background: url('../objetos/botao1.png') no-repeat;
+    padding-left: 250px;
+    min-height: 230px;
+    padding-top: 50px;
+}
+
+
+.pagination>li>a, .pagination>li>span{
+    border:none;
+    padding: 6px 2px;
+}
+.pagination>li>a:hover{background-color: #fff;}
+.pagination{margin-left: 24%;}
+
+.marcador{
+    background: url('../objetos/marcadorbranco.png') no-repeat left top;
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 780px) {
+    .importante{
+        padding: 40px 50px;
+        background: none;
+    }
+    .opacidade{padding: 60px 50px;}
+    .container-mobile h3:first-child{
+        border-top: 8px solid #292929;
+    }
+    .bg4 .img1, .bg4 .img2{border-bottom: none;}
+    .bg4 h3.analise{margin-top: 0;}
+    .bg5 li{width: 100%;}
+    .bg6 ul{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .bg6 ul:nth-child(3){margin-top: 0;}
+    .bg6 li{min-height: 41px;}
+    .bg6 img{display: none;}
+    .bg7 li{min-height: 41px;}
+}
+
+@media screen and (max-width:550px){
+    .bg1 h2{font-size: 30px;}
+    .opacidade{
+        width: 100%;
+        padding: 20px;
+    }
+    .bg7 .opacity{padding: 20px;}
+    .bg8 h3{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .icone-para-refletir{
+        background: url('../objetos/botao1.png') no-repeat center top;
+        padding-left: 0;
+        padding-top: 240px;
+    }
+}

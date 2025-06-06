@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<link rel="stylesheet" href="libs/qunit.css" type="text/css" media="screen" />
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">João Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">279654800.000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">João Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+	<h1 id="qunit-header">QUnit example</h1>
+	<h2 id="qunit-banner"></h2>
+	<div id="qunit-testrunner-toolbar"></div>
+	<h2 id="qunit-userAgent"></h2>
+	<ol id="qunit-tests"></ol>
+	<div id="qunit-fixture">test markup, will be hidden</div>
+
+	<script src="../dist/jspdf.min.js"></script>
+	<!-- this is a "toy" plugin and is NOT part of .min.js -->
+	<script src="../jspdf.plugin.sillysvgrenderer.js"></script>
+	
+	<!-- addImage is part of .min.js 
+	<script src="../jspdf.plugin.addimage.js"></script>
+	-->
+
+	<script src="../examples/js/jquery/jquery-1.7.1.min.js"></script> 
+	<script src="libs/qunit.js"></script>
+	<script type="text/javascript">
+	curl = {
+		baseUrl: './'
+		// pluginPath: 'for/some/reason/plugins/r/here',
+		, apiName: 'require'
+	};
+	</script>
+	<script src="libs/curl-0.5.4.min.js"></script><!-- for loading things async in a simple way-->
+	<script src="libs/custom_fill.js"></script><!-- has the "safe" log() and Curl.js's Text! plugin -->
+	<!-- DID YOU LOSE US? The TESTS ARE HERE -->
+	<script src="pdf_generate_tests.js"></script>
+</body>
+</html>

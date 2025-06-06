@@ -1,0 +1,31 @@
+.check{
+    background: url(../images/mark-icon.png) no-repeat left center;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.pagination>li>a, .pagination>li>span{
+    border:none;
+    padding: 6px 2px;
+}
+.pagination>li>a:hover{background-color: #fff;}
+.pagination{margin-left: 24%;}
+.sem-marcador {padding-left: 0;}
+.sem-marcador li{
+    list-style-image: none;
+    list-style-type: none;
+}
+.icone-resumindo{
+	padding-left: 100px;
+    background-position: 10px center;
+    background-size: 80px 80px;
+    background-image: url(../objetos/ico-resumo.png);
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:550px){
+    h2,
+    .container > h4:first-child,
+    .container > h3:first-child{margin-top: 80px;}
+    .icone-resumo{
+        background-position: center 0px;
+      }
+}

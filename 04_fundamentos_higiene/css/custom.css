@@ -1,0 +1,352 @@
+@font-face {
+    font-family: robotoLight;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: robotoSlabLight;
+    src: url(../fonts/RobotoSlab-Light.ttf);
+}
+@font-face {
+    font-family: robotoSlabBold;
+    src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
+
+.container{
+    max-width: 1190px;
+    background: transparent;
+}
+h2{
+    font-family: robotoSlabLight;
+    font-size:40px;
+	/*alterei tamanho dos títulos*/
+}
+p{
+    font-family: robotoLight;
+    font-size: 20px;
+	/*alterei tamanho da fonte*/
+}
+p strong{
+    font-family: robotoSlabBold;
+    color: #6e4f00;
+}
+/* .bto-imprimir-img {
+    text-align: right;
+}
+.bto-imprimir-img button:hover {
+  background: url(../objetos/botoes-11.png) top left / 100% auto no-repeat;
+}
+.bto-imprimir-img button {
+    background: url(../objetos/botoes-10.png) top left / 100% auto no-repeat;
+    cursor: pointer;
+    width: 180px;
+    height: 60px;
+    border: 0px none;
+    color: rgba(0,0,0,0);
+} */
+.bg1{
+    background-color: #fff;
+    background-attachment: fixed;
+    margin-top: 80px;
+    padding-top: 40px;
+}
+.bg1 h2{font-size: 40px;}
+.topo1{
+    background: url('../objetos/topo1.png') no-repeat;
+    height: 343px;
+    position: relative;
+    z-index: 2;
+}
+.caixa-destaque-borda{
+    border: 10px solid #ffb728;
+    padding: 65px 70px;
+}
+.bg2{
+    background: url('../objetos/patter1.png') repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+    margin-top: -310px;
+    padding-top: 320px;
+    color: #fff;
+    padding-bottom: 190px;
+}
+.bg2 h2, .bg2 strong{color: #fff;}
+.topo2{
+    background: url('../objetos/topo2.png') no-repeat bottom center;
+    height: 368px;
+    position: relative;
+    z-index: 2;
+    margin-top: -345px;
+}
+.bg3{
+    background: #006282;
+    padding-top: 395px;
+    margin-top: -337px;
+    z-index: 1;
+    color: #fff;
+}
+.bg3 h2, .bg3 strong{color: #fff;}
+.topo3{
+    background: url('../objetos/topo3.png') no-repeat bottom center;
+    height: 440px;
+    position: relative;
+    z-index: 2;
+    clear: both;
+}
+.bg4{
+    background: url('../objetos/patter2.png') repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+    margin-top: -438px;
+    padding-top: 420px;
+    padding-bottom: 410px;
+    color: #000;
+}
+.bg4 ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.bg4 ul li{
+    background: url('../objetos/marcador_vermelho.png') no-repeat center left;
+    padding-left: 50px;
+    list-style-image: none;
+    list-style-type: none;
+    background-size: 32px;
+    font-family: robotoLight;
+    font-size: 20px;
+	/*alterei tamanho da fonte*/
+}
+.topo4{
+    background: url('../objetos/topo4.png') no-repeat bottom center;
+    height: 440px;
+    position: relative;
+    z-index: 2;
+    clear: both;
+    margin-top: -410px;
+}
+.bg5{
+    background: #ffb628;
+    background-attachment: fixed;
+    padding-top: 40px;
+    z-index: 1;
+    position: relative;
+    color: #000;
+}
+.bg5 p{
+    font-family: robotoSlabLight;
+    font-size: 23px;
+	/*alterei tamanho da fonte de 36 para 23px*/
+}
+.bg5 .circulo{
+    background: url('../objetos/existem_bg5.png') no-repeat center center;
+    overflow: visible;
+}
+.topo5{
+    background: url('../objetos/topo5.png') no-repeat bottom center;
+    height: 440px;
+    position: relative;
+    z-index: 2;
+    clear: both;
+}
+.bg6{
+    background: url('../objetos/patter3.png') repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    margin-top: -436px;
+    padding-top: 436px;
+    padding-bottom: 410px;
+}
+.bg6 h2{color: #fff;}
+.topo6{
+    background: url('../objetos/topo6.png') no-repeat bottom center;
+    height: 440px;
+    position: relative;
+    z-index: 2;
+    clear: both;
+    margin-top: -410px;
+}
+.bg7{
+    background: #fff;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+    padding-bottom: 240px;
+    color: #000;
+}
+.topo7{
+    background: url('../objetos/topo7.png') no-repeat bottom center;
+    height: 196px;
+    position: relative;
+    z-index: 2;
+    clear: both;
+    margin-top: -196px;
+}
+.bg8{
+    background: #ffb628;
+}
+.bg8 p, .bg8 strong{
+    font-size: 20px;
+    color: #292929;
+/*	alterei tamanho da fonte de 36 para 20px*/
+}
+.bg8 .caixa-destaque-borda{
+    border-color: #fff;
+    font-size: 21px;
+}
+.bg8 .caixa-destaque-borda p,
+.bg8 .caixa-destaque-borda strong{font-size: 20px;}
+.topo8{
+    background: url('../objetos/topo8.png') no-repeat bottom center;
+    height: 196px;
+    position: relative;
+    z-index: 2;
+    clear: both;
+}
+.bg9{
+    background: url('../objetos/patter4.png') repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    margin-top: -196px;
+    padding-top: 200px;
+    padding-bottom: 320px;
+}
+.bg9 h2{
+    color: #fff;
+    margin-bottom: 5%;
+}
+.bg9 .caixa-destaque-borda{border-color: #fff;}
+.bg9 ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.bg9 ul li{
+    background: url('../objetos/marcador_branco.png') no-repeat center left;
+    padding-left: 70px;
+    list-style-image: none;
+    list-style-type: none;
+    font-family: robotoLight;
+    font-size: 20px;
+    min-height: 50px;
+    line-height: 50px;
+	/*alterei tamanho da fonte de 21 para 20px*/
+}
+.bg10{
+    background: #fff;
+}
+.bg10 ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.bg10 ul li{
+    background: url('../objetos/marcador_vermelho.png') no-repeat center left;
+    padding-left: 70px;
+    list-style-image: none;
+    list-style-type: none;
+    font-family: robotoLight;
+    font-size: 19px;
+    min-height: 50px;
+}
+.bg11{
+    background: url('../objetos/patter5.png') repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    margin-top: -320px;
+    padding-top: 320px;
+    padding-bottom: 120px;
+}
+.bg11 p{
+    font-size: 23px;
+    color: #292929;
+	/*alterei o tamanho de 36 para 23px*/
+}
+
+
+
+.pagination>li>a, .pagination>li>span{
+    border:none;
+    padding: 6px 2px;
+}
+.pagination>li>a:hover{background-color: #fff;}
+.pagination{margin-left: 24%;}
+
+.citacao {
+    padding-left: 20%;
+}
+.citacao * {
+    font-size: .95em
+}
+@media screen and (max-width: 780px) {
+    .topo1, .topo2, .topo3, .topo4,
+    .topo5, .topo6, .topo7, .topo8{display: none;}
+    .bg2{
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .bg1{padding-bottom: 30px;}
+    .bg3{
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .bg4{
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    .bg5{padding-bottom: 30px;}
+    .bg5 p{font-size: 16px;}
+    .bg6{
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .bg7, .bg8{padding: 30px 0;}
+    .bg8 p, .bg8 strong{
+        font-size: 16px;
+    }
+    .bg9{
+        margin-top: 0;
+        padding: 30px 0;
+    }
+    .caixa-destaque-borda{
+        padding: 15px 10px;
+        border-width: 5px;
+    }
+
+    .bg8 .caixa-destaque-borda p,
+    .bg8 .caixa-destaque-borda strong{font-size: 16px;}
+    .bg10{padding: 30px 0;}
+    .bg11{
+        margin-top: 0;
+        padding: 30px 0;
+    }
+    .bg11 p{font-size: 16px;}
+    .img-margin{margin-top: 50px !important;}
+    h2{font-size: 2em;}
+	/*alterei tamanho da fonte de 40px para 2em pois estava quebrando nesta resolução*/
+    .bg1 h2{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    div img{margin: 0 auto 30px auto;}
+    p{font-size: 16px;}
+    ul li{
+        font-size: 16px !important;
+        min-height: 50px;
+    }
+    .bg4 ul li:first-child{line-height: 50px;}
+}
+@media screen and (max-width:550px){
+    h2{margin-top: 80px;}
+    .bg4 ul li:first-child{
+        line-height:normal;
+    }
+}

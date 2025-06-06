@@ -1,0 +1,13 @@
+body{
+	background: url('../objetos/background.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.bt-voltar{
+	background: url('../objetos/voltar.png') no-repeat;
+	height: 66px;
+	width: 253px;
+	display: block;
+	margin: 20px auto;
+}
+.bt-voltar:hover{background: url('../objetos/voltar_hover.png') no-repeat;}

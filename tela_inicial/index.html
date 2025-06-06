@@ -1,0 +1,556 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+	xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tela Inicial</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="template/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">João Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">92932800.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">João Pedro Gaelzer Coelho Silva</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-lg-2 pull-right text-right">
+					<img src="assets/logo_senac.png" class="img-responsive">
+				</div>
+				<div class="col-xs-12 col-lg-10">
+					<h1>Realizar avaliação e medidas de controle de riscos físicos, químicos e biológicos</h1>
+					<hr>
+				</div>
+				<div class="col-xs-12">
+					<h4><strong>Clique</strong> ou <strong>toque</strong> para acessar os conteúdos.</h4>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container grupos">
+
+		<!-- grupo 1 -->
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>1ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo1">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+
+				<ul class="drag-inner-list" id="1" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link1">
+						<p><a href="../01_normas_regulamentadoras/index.html" target="_blank" class="link">Normas
+								regulamentadoras relativas aos riscos físicos, químicos e biológicos</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="drag-item fazer" data-item="link2">
+						<p><a href="../02_legislacao_trabalhista/index.html" target="_blank" class="link">Legislação
+								trabalhista e previdenciária: aspectos referentes à avaliação de riscos</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="drag-item fazer" data-item="link3">
+						<p><a href="../04_fundamentos_higiene/index.html" target="_blank" class="link">Fundamentos de
+								higiene ocupacional: princípios, conceitos, definições e noções de fisiologia humana</a>
+						</p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+
+
+				</ul>
+				<div class="mao">
+					<img src="assets/ico_mao.png" class="img-responsive">
+				</div>
+			</div>
+
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="2" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<div class="setinha"></div>
+				<div class="exemplo"></div>
+				<ul class="drag-inner-list" id="3" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 1 -->
+
+		<!-- grupo 2 -->
+		<div class="row margin50">
+			<div class="col-lg-12">
+				<h2>2ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo2">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+				<ul class="drag-inner-list" id="4" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link4">
+						<p><a href="../05_riscos_fisicos_quimicos/index.html" target="_blank" class="link">Riscos
+								físicos, químicos e biológicos: definições, tipos, categorias e grupos</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link5">
+						<p><a href="../06_agentes_fisicos/index.html" target="_blank" class="link">Agentes físicos
+								“ruído, vibração, calor, frio, umidade, radiação, pressões anormais”</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link6">
+						<p><a href="../08_agentes_quimicos/index.html" target="_blank" class="link">Agentes químicos e suas formas de dispersão no ambiente: aerodispersoides, gases, névoas, vapores, neblinas, poeiras e fumos </a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link7">
+						<p><a href="../10_agentes_biologicos/index.html" target="_blank" class="link">Agentes
+								biológicos: fungos, bactérias, vírus e protozoários; Biossegurança e Normas
+								regulamentadoras</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="5" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<ul class="drag-inner-list" id="6" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 2 -->
+
+		<!-- grupo 3 -->
+		<div class="row margin50">
+			<div class="col-lg-12">
+				<h2>3ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo3">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+				<ul class="drag-inner-list" id="7" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link8">
+						<p><a href="../12_doencas_ocupacionais/index.html" target="_blank" class="link">Doenças
+								ocupacionais: legislação vigente, conceito, tipos, vias de penetração e prevenção</a>
+						</p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link9">
+						<p><a href="../11_analise_riscos/index.html" target="_blank" class="link">Análise de riscos
+								ocupacionais: checklist e inspeção</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link10">
+						<p><a href="../16_normas_higiene/index.html" target="_blank" class="link">Normas de Higiene
+								Ocupacional (NHO) Fundacentro, normas nacionais e internacionais: (ACGIH -NIOSH) e
+								procedimentos</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="8" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<ul class="drag-inner-list" id="9" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 3 -->
+
+		<!-- grupo 4 -->
+		<div class="row margin50">
+			<div class="col-lg-12">
+				<h2>4ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo4">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+				<ul class="drag-inner-list" id="10" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link11">
+						<p><a href="../17_avaliacoes_quantitativas/index.html" target="_blank" class="link">Avaliações
+								qualitativas e quantitativas: tipos e metodologias específicas das NHOs</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link12">
+						<p><a href="../13_conceitos_limites/index.html" target="_blank" class="link">Conceitos de
+								limites de exposição ocupacional: Limite de Tolerância (LT) – NR pertinente; Thereshold
+								Limit Values (TLV) – American Conference of Governmental Industrial Hygienists (ACGIH);
+								Permissible Exposion Limits (PEL) – Ocupational Safety and Health Administration (OSHA);
+								Recommended Exposure Limit (REL); National Institute for Occupational Safety and Health
+								(NIOSH); Valor Teto, Valor Máximo, Nível de ação, ppm e mg/m3</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+
+					<li class="drag-item fazer" data-item="link13">
+						<p><a href="../14-15_tecnicas_controle/index.html" target="_blank" class="link">Técnicas de
+								controle de agentes físicos, químicos e biológicos; medidas administrativas</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link14">
+						<p><a href="../09_produtos_quimicos/index.html" target="_blank" class="link">Produtos químicos: Fichas de Dados de Segurança (FDS) e ficha de emergência </a>
+						</p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="11" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<ul class="drag-inner-list" id="12" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 4 -->
+
+		<!-- grupo 5 -->
+		<div class="row margin50">
+			<div class="col-lg-12">
+				<h2>5ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo5">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+				<ul class="drag-inner-list" id="13" data-index="lista-fazer">
+					<li class="drag-item fazer" data-item="link15">
+						<p><a href="../03/index.html" target="_blank" class="link">Elaboração de croquis e desenho
+								técnico: representações gráficas, escalas de redução e de ampliação, leitura e
+								interpretação de plantas, representação de postos de trabalho, normas técnicas e
+								literatura técnica</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link16">
+						<p><a href="../07_processos_produtivos/index.html" target="_blank" class="link">Processos
+								produtivos e suas características</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+					<li class="drag-item fazer" data-item="link17">
+						<p><a href="../18_descricao_atividades/index.html" target="_blank" class="link">Descrição de
+								atividades laborais e elaboração de Ordens de Serviço</a></p>
+						<div class="dropdown dropdown-bubble">
+							<a id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								Mover para:
+								<li class="mover-fazer">A fazer</li>
+								<li class="mover-fazendo">Sendo feito</li>
+								<li class="mover-feito">Feito</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="14" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<ul class="drag-inner-list" id="15" data-index="lista-feito">
+				</ul>
+			</div>
+		</div>
+		<!-- grupo 5 -->
+
+		<!-- grupo 6 -->
+		<!-- <div class="row margin50">
+			<div class="col-lg-12">
+				<h2>6ª Semana</h2>
+			</div>
+		</div>
+		<div class="row grupo" data-group="grupo6">
+			<h3 class="hidden-lg hidden-md">A FAZER</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">A FAZER</h3>
+				<ul class="drag-inner-list" id="16" data-index="lista-fazer">
+					
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">SENDO FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column drag-column-in-progress">
+				<h3 class="visible-lg visible-md">SENDO FEITO</h3>
+				<ul class="drag-inner-list" id="17" data-index="lista-fazendo">
+				</ul>
+			</div>
+			<h3 class="hidden-lg hidden-md">FEITO</h3>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 drag-column">
+				<h3 class="visible-lg visible-md">FEITO</h3>
+				<ul class="drag-inner-list" id="18" data-index="lista-feito">
+				</ul>
+			</div>
+		</div> -->
+		<!-- grupo 6 -->
+
+		<div class="row">
+			<div class="col-lg-2 pull-left text-right margin50" style="padding-left: 0;">
+				<a href="../19_referencias/index.html" target="_blank" class="referencias"><img
+						src="assets/btn_referencias.png" alt=""></a>
+			</div>
+			<div class="col-lg-2 pull-right text-right margin50">
+				<a href="" class="voltar-topo"><img src="assets/btn_topo.png" alt=""></a>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modal-id">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="separador">
+							<h4>Mover para:</h4>
+						</div>
+						<div class="separador">
+							<p class="botao-fazendo">Sendo feito</p>
+						</div>
+						<div class="separador">
+							<p class="botao-feito">Feito</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- partial -->
+	<script src="template/js/jquery.min.js"></script>
+
+	<script src='dragula.min.js'></script>
+	<script src="script.js"></script>
+	<script src="template/js/bootstrap.min.js"></script>
+	<script src="jquery.mobile.js"></script>
+
+</body>
+<!-- Script de configuração do HANDTALK -->
+<script>
+	var scriptElem = document.createElement("script");
+	scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+	  scriptElem.charset = "UTF-8",
+	  scriptElem.onload = function () {
+		window.ht = new HT({
+		  token: "bf5b7efb148a829a126a0e0c9fd533bf",
+		  align: "top",
+		  videoEnabled: true,
+		  ytEmbedReplace: true,
+		  mobileConfig: {
+			align: "right",
+			actionsAlign: "top",
+			customButtonStyle: {
+			  borderRadius: "6px",
+			  size: "38px",
+			  horizontalMargin: "13px",
+			  bottomMargin: "140px",
+			  rightMargin: "40px"
+			}
+		  }
+		});
+		$('.ht-skip').attr("aria-hidden", "true")
+	  },
+	  document.body.appendChild(scriptElem);
+  </script>
+<!-- --------------------------------------------------------------------- -->
+
+</html>
+
+</html>
