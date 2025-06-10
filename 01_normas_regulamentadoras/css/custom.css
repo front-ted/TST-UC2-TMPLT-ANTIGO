@@ -4,6 +4,89 @@
 }
 .pagination>li>a:hover{background-color: #fff;}
 .pagination{margin-left: 24%;}
+
+.marcador-numeral li, .marcador-letras li{
+    list-style: none;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: 22px;
+}
+.marcador-numeral li:first-child{
+    background-image: url('../../02_legislacao_trabalhista/images/num1.svg');
+}
+.marcador-numeral li:nth-child(2){
+    background-image: url('../../02_legislacao_trabalhista/images/num2.svg');
+}
+.marcador-numeral li:nth-child(3){
+    background-image: url('../../02_legislacao_trabalhista/images/num3.svg');
+}
+.marcador-numeral li:nth-child(4){
+    background-image: url('../../02_legislacao_trabalhista/images/num4.svg');
+}
+.marcador-numeral li:nth-child(5){
+    background-image: url('../../02_legislacao_trabalhista/images/num5.svg');
+}
+.marcador-numeral li:nth-child(6){
+    background-image: url('../../02_legislacao_trabalhista/images/num6.svg');
+}
+.marcador-numeral li:nth-child(7){
+    background-image: url('../../02_legislacao_trabalhista/images/num7.svg');
+}
+.marcador-numeral li:nth-child(8){
+    background-image: url('../../02_legislacao_trabalhista/images/num8.svg');
+}
+.marcador-numeral li:nth-child(9){
+    background-image: url('../../02_legislacao_trabalhista/images/num9.svg');
+}
+
+.marcador-letras li:nth-child(1){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_a.svg');
+}
+.marcador-letras li:nth-child(2){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_b.svg');
+}
+.marcador-letras li:nth-child(3){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_c.svg');
+}
+.marcador-letras li:nth-child(4){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_d.svg');
+}
+.marcador-letras li:nth-child(5){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_e.svg');
+}
+.marcador-letras li:nth-child(6){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_f.svg');
+}
+.marcador-letras li:nth-child(7){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_g.svg');
+}
+.marcador-letras li:nth-child(8){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_h.svg');
+}
+.marcador-letras li:nth-child(9){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_i.svg');
+}
+.marcador-letras li:nth-child(10){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_j.svg');
+}
+.marcador-letras li:nth-child(11){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_k.svg');
+}
+.marcador-letras li:nth-child(12){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_l.svg');
+}
+.marcador-letras li:nth-child(13){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_m.svg');
+}
+.marcador-letras li:nth-child(14){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_n.svg');
+}
+.marcador-letras li:nth-child(15){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_o.svg');
+}
+.marcador-letras li:nth-child(16){
+    background-image: url('../../02_legislacao_trabalhista/images/letra_p.svg');
+}
 @media screen and (max-width:550px){
     h2{margin-top: 80px;}
 }
