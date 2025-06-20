@@ -361,5 +361,7 @@
 .close {
   display: none;
 }
-
+.caixa-destaque{
+  padding: 0 !important;
+}
 }

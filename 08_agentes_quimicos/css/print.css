@@ -403,5 +403,7 @@
   .close {
     display: none;
   }
-
+  .caixa-destaque{
+    padding: 0px !important;
+  }
 }

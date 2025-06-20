@@ -71,7 +71,8 @@ p strong{
     color: #fff;
     padding-bottom: 190px;
 }
-.bg2 h2, .bg2 strong{color: #fff;}
+.bg2 strong{color: #fff;}
+.bg2 h2{ color:  #E6B500;}
 .topo2{
     background: url('../objetos/topo2.png') no-repeat bottom center;
     height: 368px;
